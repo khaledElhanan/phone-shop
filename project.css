@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+.khaled {
+    background-color: rgb(176, 204, 15);
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo {
+    width: 60px;
+
+
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+
+}
+
+ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: 0.7s ease
+}
+
+ul li a:hover {
+    color: rgb(220, 19, 19);
+    transform: scale(1.1);
+}
+
+.para div a {
+
+    cursor: pointer;
+    transition: 0.7s ease;
+}
+
+.para div a:hover {
+    color: red;
+    transform: scale(2);
+}
+
+
+
+.para {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+
+}
+
+.para .text {
+    width: 40%;
+    color: aliceblue;
+}
+
+.para .text h2 {
+    font-size: 40px;
+    text-transform: capitalize;
+}
+
+
+.para .text p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.para .text a {
+    text-decoration: none;
+    background-color: azure;
+    color: black;
+    padding: 8px 15px;
+    border-radius: 20px;
+
+}
+
+
+
+
+
+
+.para .image {
+    width: 230px;
+
+}
+
+.para .image img {
+    width: 327px;
+    height: 308px;
+
+}
+
+.icons {
+    position: absolute;
+    bottom: 20px;
+    left: 58px;
+    transform: translateX(270%);
+
+}
+
+.icons img {
+    width: 48px;
+    height: 50px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.icons img:hover {
+    transform: scale(1.6);
+
+
+}
